@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Guru Rengarajan — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2b1d6a4b0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <meta name="description" content="Guru Rengarajan — Java Developer, AI Prompter, Event Handler. vCard portfolio." />
+  <link rel="icon" href="assets/avatar.png" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="profile">
+        <img src="assets/avatar.png" alt="Guru Rengarajan" class="avatar" />
+        <h1 class="name">Guru Rengarajan</h1>
+        <p class="typing" aria-live="polite"></p>
+      </div>
+      <ul class="socials">
+        <li><a href="https://github.com/Guru200616" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/guru-rengarajan-06231a306" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://www.instagram.com/pg_____6?igsh=ZncxNXN6b2dub3cx" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://wa.me/919487636133" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+        <li><a href="mailto:rguru160706@gmail.com"><i class="fas fa-envelope"></i></a></li>
+      </ul>
+      <div class="contact-card">
+        <div><strong>Email</strong><br><a href="mailto:rguru160706@gmail.com">rguru160706@gmail.com</a></div>
+        <div><strong>Phone</strong><br><a href="tel:+919487636133">+91 94876 36133</a></div>
+        <div><strong>Birthday</strong><br>16 July 2006</div>
+        <div><strong>Location</strong><br>Pudukkottai, Tamilnadu 622002</div>
+      </div>
+    </aside>
+    <main class="main">
+      <nav class="nav">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <section id="about" class="section">
+        <h2>About Me</h2>
+        <p><strong>Prompt engineer — coderRank556.</strong> Hi, I'm <strong>Guru Rengarajan</strong>. I build Java applications, design web interfaces, craft AI prompts, and run event-handling solutions. I also produce content and deploy AI systems for practical use.</p>
+      </section>
+      <section id="skills" class="section">
+        <h2>Skills & Services</h2>
+        <ul class="skills">
+          <li>Content Writer</li><li>AI Prompter</li><li>Web Designer</li><li>AI Deployer</li><li>Java Development</li>
+        </ul>
+      </section>
+      <section id="portfolio" class="section">
+        <h2>Portfolio</h2>
+        <div class="grid">
+          <div class="card"><img src="assets/portfolio1.jpg"><h3>Web Apps</h3><p>Responsive web applications and dashboards.</p></div>
+          <div class="card"><img src="assets/portfolio2.jpg"><h3>Development</h3><p>Java backends, REST APIs, and integrations.</p></div>
+          <div class="card"><img src="assets/portfolio1.jpg"><h3>AI Projects</h3><p>Prompt engineering and deployment.</p></div>
+          <div class="card"><img src="assets/portfolio2.jpg"><h3>Services</h3><p>Event handling & content services.</p></div>
+        </div>
+      </section>
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+        <form id="contactForm" class="contact-form">
+          <input type="text" id="name" placeholder="Your name" required>
+          <input type="email" id="email" placeholder="Your email" required>
+          <textarea id="message" rows="5" placeholder="Message" required></textarea>
+          <button type="submit" class="cta">Send Message</button>
+          <div id="formMsg" class="form-msg"></div>
+        </form>
+      </section>
+      <footer class="footer"><div>© <span id="year"></span> Guru Rengarajan</div></footer>
+    </main>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
